@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "¡Hola!",
+        "Hola",
+        "Buen día",
+        "¿Cómo estás?",
+        "Hola, ¿puedes ayudarme?"
+      ],
+      "responses": [
+        "¡Hola! Estoy aquí para ayudarte con consultas veterinarias. ¿En qué puedo ayudarte hoy?",
+        "Hola, soy un asistente virtual veterinario. ¿Cómo puedo ayudarte?"
+      ]
+    },
+    {
+      "tag": "about_pet_clinic",
+      "patterns": [
+        "Cuéntame sobre la clínica veterinaria",
+        "¿Qué servicios ofrece la clínica veterinaria?",
+        "Dime más sobre la clínica de mascotas",
+        "que servicios ofreces"
+      ],
+      "responses": [
+        "Nuestra clínica veterinaria ofrece una amplia gama de servicios para mascotas, incluyendo consultas, vacunas, cirugías y atención médica. ¿En qué específicamente estás interesado?",
+        "La clínica de mascotas se especializa en cuidado veterinario. Podemos ayudarte con el bienestar de tu mascota. ¿En qué puedo asistirte?"
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "¿Cómo puedo programar una cita para mi mascota?",
+        "Necesito hacer una cita veterinaria",
+        "Cita para mi perro/gato"
+      ],
+      "responses": [
+        "Puedes programar una cita llamando a nuestra clínica o visitando nuestro sitio web. ¿Tienes alguna preferencia de fecha y hora?",
+        "Estamos aquí para ayudarte con las citas. Por favor, proporciónanos más detalles para programar una cita."
+      ]
+    },
+    {
+      "tag": "pet_health",
+      "patterns": [
+        "¿Cómo puedo mantener a mi mascota saludable?",
+        "Consejos para cuidar de mi perro/gato",
+        "¿Qué alimentos son buenos para las mascotas?"
+      ],
+      "responses": [
+        "Mantener a tu mascota saludable implica una dieta adecuada, ejercicio y visitas regulares al veterinario. Estamos felices de proporcionarte consejos sobre cuidados de mascotas.",
+        "El bienestar de tu mascota es importante. Podemos brindarte consejos sobre nutrición y cuidados generales para mantenerla saludable."
+      ]
+    },
+    {
+      "tag": "emergency_vet",
+      "patterns": [
+        "Necesito ayuda veterinaria de emergencia",
+        "Mi mascota está herida",
+        "¿Cuál es el número de emergencia de la clínica?"
+      ],
+      "responses": [
+        "Si tienes una emergencia veterinaria, por favor, llama a nuestra clínica o dirígete a la clínica de inmediato. La seguridad de tu mascota es una prioridad.",
+        "Lo siento por la emergencia. Por favor, comunícate con nosotros de inmediato para obtener ayuda veterinaria de emergencia."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Adiós",
+        "Hasta luego",
+        "Gracias por la ayuda",
+        "Chau"
+      ],
+      "responses": [
+        "¡Adiós! Si tienes más preguntas en el futuro, no dudes en preguntar. ¡Cuida de tu mascota!",
+        "Hasta luego. Estoy aquí cuando necesites asistencia veterinaria. ¡Ten un buen día!",
+        "De nada. ¡Adiós y cuídate!"
+      ]
+    },
+    {
+      "tag": "noans",
+      "patterns": [
+        "¿Por qué?",
+        "¿Cómo?",
+        "¿Cuándo?",
+        "Yo",
+        "Tú"
+      ],
+      "responses": [
+        "¡Hola! Estoy aquí para responder tus preguntas sobre temas veterinarios. ¿En qué puedo ayudarte específicamente?",
+        "Me estoy especializando en temas veterinarios, ¿puedes proporcionar más detalles sobre lo que necesitas?"
+      ]
+    }
+  ]
+}
+
